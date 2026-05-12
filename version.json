@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-05-12T17:34:12Z",
+  "latest": {
+    "tag_name": "v0.2.4",
+    "version": "0.2.4",
+    "name": "小秘助手 v0.2.4",
+    "body": "# 小秘助手 v0.2.4\r\n\r\n**Hermes Agent 的 Windows / macOS 桌面管理工具**\r\n\r\n## 本次更新\r\n\r\n- fix: v0.2.4 - 防 mingw cwd 翻译刷屏 + 全局免授权前置警告 (51d61c2)\r\n\r\n## 下载\r\n\r\n| 平台 | 安装包文件名 |\r\n| ---- | ------ |\r\n| Windows 10/11 (x64) | `XiaoMi_<版本>_x64-setup.exe` |\r\n| Windows 11 ARM | `XiaoMi_<版本>_arm64-setup.exe` |\r\n| macOS (Intel + Apple Silicon) | `XiaoMi_<版本>_universal.dmg` |\r\n\r\n> **安装包文件名为什么是 `XiaoMi_` 而不是「小秘助手_」？**\r\n> GitHub Releases asset 文件名只接受 ASCII 字符，对中文文件名\r\n> 会**静默拒绝**（HTTP 200 但不生效）。这是 GitHub 平台硬限制。\r\n> **安装到电脑后** 桌面快捷方式 / 开始菜单 / 任务栏标题全部\r\n> 显示中文「小秘助手」（不受 GitHub 限制约束）。\r\n\r\n## 安装\r\n\r\n**Windows**: 双击 `.exe` 启动 NSIS 安装向导（无需管理员权限）。\r\n\r\n**macOS**: 双击 `.dmg`，将 `小秘助手.app` 拖入 Applications。\r\n首次运行需在「系统设置 → 隐私与安全性」点击「仍要打开」（未签名安装包）。\r\n\r\n## 主要功能\r\n\r\n- 一键部署 Hermes Agent（自动安装 Python、Node.js、Hermes）\r\n- Gateway 进程管理（启停重启 / 崩溃自动重启 / 系统托盘）\r\n- 实时对话（PTY + xterm.js）+ 危险命令审批 UI\r\n- 配置中心（config.yaml / SOUL.md / .env / 命令白名单）\r\n- 模型列表自动获取（OpenAI 兼容 /v1/models）\r\n- 平台扫码授权（微信 / QQ / 飞书 / 钉钉 / 企业微信）\r\n- 配对审批 / 会话历史 / 定时任务 / MCP / Profile\r\n- Hermes Agent 自动更新检测（带兼容性范围校验）\r\n- 小秘助手自动更新（含国内镜像加速）\r\n- 远程连接管理云端 Hermes Gateway\r\n\r\n## 反馈\r\n\r\n- QQ 群: 905590115\r\n- GitHub Issues: https://github.com/Red-Romance/Hermes_XiaoMi/issues\r\n\r\n---\r\nSee the file list below to download the right installer for your platform.\r\n\r\n**Full Changelog**: https://github.com/Red-Romance/Hermes_XiaoMi/compare/v0.2.3...v0.2.4",
+    "html_url": "https://github.com/Red-Romance/Hermes_XiaoMi_Releases/releases/tag/v0.2.4",
+    "published_at": "2026-05-12T17:33:05Z",
+    "assets": [
+      {
+        "name": "XiaoMi_0.2.4_arm64-setup.exe",
+        "browser_download_url": "https://github.com/Red-Romance/Hermes_XiaoMi_Releases/releases/download/v0.2.4/XiaoMi_0.2.4_arm64-setup.exe",
+        "size": 41555096,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "name": "XiaoMi_0.2.4_universal.app.tar.gz",
+        "browser_download_url": "https://github.com/Red-Romance/Hermes_XiaoMi_Releases/releases/download/v0.2.4/XiaoMi_0.2.4_universal.app.tar.gz",
+        "size": 84803214,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "name": "XiaoMi_0.2.4_universal.dmg",
+        "browser_download_url": "https://github.com/Red-Romance/Hermes_XiaoMi_Releases/releases/download/v0.2.4/XiaoMi_0.2.4_universal.dmg",
+        "size": 85046421,
+        "content_type": "application/octet-stream"
+      },
+      {
+        "name": "XiaoMi_0.2.4_x64-setup.exe",
+        "browser_download_url": "https://github.com/Red-Romance/Hermes_XiaoMi_Releases/releases/download/v0.2.4/XiaoMi_0.2.4_x64-setup.exe",
+        "size": 41816619,
+        "content_type": "application/octet-stream"
+      }
+    ]
+  },
+  "history": [
+    {
+      "tag_name": "v0.2.4",
+      "version": "0.2.4",
+      "html_url": "https://github.com/Red-Romance/Hermes_XiaoMi_Releases/releases/tag/v0.2.4",
+      "published_at": "2026-05-12T17:33:05Z",
+      "assets": [
+        {
+          "name": "XiaoMi_0.2.4_arm64-setup.exe",
+          "browser_download_url": "https://github.com/Red-Romance/Hermes_XiaoMi_Releases/releases/download/v0.2.4/XiaoMi_0.2.4_arm64-setup.exe",
+          "size": 41555096,
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "XiaoMi_0.2.4_universal.app.tar.gz",
+          "browser_download_url": "https://github.com/Red-Romance/Hermes_XiaoMi_Releases/releases/download/v0.2.4/XiaoMi_0.2.4_universal.app.tar.gz",
+          "size": 84803214,
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "XiaoMi_0.2.4_universal.dmg",
+          "browser_download_url": "https://github.com/Red-Romance/Hermes_XiaoMi_Releases/releases/download/v0.2.4/XiaoMi_0.2.4_universal.dmg",
+          "size": 85046421,
+          "content_type": "application/octet-stream"
+        },
+        {
+          "name": "XiaoMi_0.2.4_x64-setup.exe",
+          "browser_download_url": "https://github.com/Red-Romance/Hermes_XiaoMi_Releases/releases/download/v0.2.4/XiaoMi_0.2.4_x64-setup.exe",
+          "size": 41816619,
+          "content_type": "application/octet-stream"
+        }
+      ]
+    }
+  ]
+}
